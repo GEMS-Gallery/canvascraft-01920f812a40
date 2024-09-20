@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint Program</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <canvas id="paintCanvas"></canvas>
+        <div class="controls">
+            <input type="color" id="colorPicker" value="#000000">
+            <input type="range" id="brushSize" min="1" max="50" value="5">
+            <span id="brushSizeValue">5</span>
+            <button id="downloadBtn">Download Image</button>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

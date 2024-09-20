@@ -1,0 +1,9 @@
+type Result = 
+ variant {
+   err: text;
+   ok;
+ };
+service : {
+  getImage: () -> (opt blob) query;
+  saveImage: (blob) -> (Result);
+}
